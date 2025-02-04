@@ -2,7 +2,8 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        double num = 5.7;
-        System.out.println("Rounded: " + Math.round(num));
+        int number = 47;
+        int sum = (number / 10) + (number % 10);
+        System.out.println("Sum: " + sum);
     }
 }
