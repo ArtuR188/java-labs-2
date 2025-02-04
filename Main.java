@@ -1,9 +1,7 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int number = 47;
-        int sum = (number / 10) + (number % 10);
-        System.out.println("Sum: " + sum);
+        int a = 17, b = 5;
+        System.out.println("fraction: " + (a / b));
+        System.out.println("remainder: " + (a % b));
     }
 }
